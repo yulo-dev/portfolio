@@ -16,7 +16,7 @@
 - `Publications`: Academic or industry contributions
 - `Contact`: How to reach me professionally
 
-## 📁 File Structure Overview
+## File Structure Overview
 
 ```bash
 portfolio/
