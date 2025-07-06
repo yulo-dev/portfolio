@@ -26,3 +26,5 @@ portfolio/
 ├── tailwind.config.js    # Styling configuration
 ├── next.config.mjs       # Next.js setup
 └── package.json
+
+## 🛠 Maintained by Noelle Lo
