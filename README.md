@@ -1,4 +1,4 @@
-# Noelle Lo — Portfolio Website
+# Yulo L. — Portfolio Website
 
 ✨ This is my personal portfolio built with **Next.js** and **Tailwind CSS**, designed to showcase my software engineering projects, skills, and technical background.
 
@@ -27,4 +27,4 @@ portfolio/
 ├── next.config.mjs       # Next.js setup
 └── package.json
 
-## 🛠 Maintained by Noelle Lo
+## 🛠 Maintained by Yulo L.
