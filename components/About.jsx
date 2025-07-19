@@ -44,9 +44,9 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-[750px] mx-auto font-Ovo'
-                >Hi, I’m Noelle — a full stack software engineer with 5+ years of backend experience in the pharmaceutical industry, where I built data platforms and automation pipelines to power clinical research.
-                Now pursuing my M.S. in Electrical and Computer Engineering at the University of Washington, I focus on full-stack development and applied AI. I currently contribute to UW’s SEAL Lab by building internal tools that streamline data tracking and lab operations.
-                I aim to build robust, scalable systems that deliver real-world value. I'm currently seeking 2026 software engineering internships where I can apply my backend and full-stack skills to solve meaningful technical challenges.
+                >Hi, Hi, I’m Yulo — a full-stack software engineer with over 5 years of backend experience in the pharmaceutical industry. I have built data platforms and automated clinical research pipelines, focusing on scalable, production-grade systems that integrate backend strength with thoughtful full-stack design.
+                Currently, I'm pursuing an M.S. in Electrical and Computer Engineering at the University of Washington. My passion lies in applying software and AI technologies to solve real-world challenges in productivity, health, and research.
+                I am actively seeking software engineering internships for 2026, where I can contribute to impactful and technically challenging projects.
                 </p>
 
                 <motion.div

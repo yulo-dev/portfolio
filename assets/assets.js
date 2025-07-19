@@ -84,10 +84,10 @@ export const workData = [
         link: 'https://github.com/noellelo/Excel-AI-Processor'
     },
     {
-        title: 'Self-Driving Car Simulator',
-        description: 'YOLOv5, ROS2, and Carla for autonomous perception',
+        title: 'Pinception',
+        description: 'A Chrome extension: Pin and reuse ChatGPT messages and prompts',
         bgImage: '/work-2.png',
-        link: 'https://github.com/noellelo'
+        link: 'https://chromewebstore.google.com/detail/gegkjocbamflconbpcepdipelhlemdmj?utm_source=item-share-cb'
     },
     {
         title: 'Netflix Clone',
@@ -99,9 +99,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Programming & Data', description: (<>Python, Java, JavaScript, SQL, R,<br />MongoDB, SAS, SPSS,<br />Longitudinal Modeling</>), link: '' },
-    { icon: assets.mobile_icon, title: 'Web & Backend', description: (<>React.js, Node.js, Express.js, FastAPI,<br />RESTful APIs, HTML/CSS, TypeScript</>), link: '' },
-    { icon: assets.ui_icon, title: 'Cloud & Robotics', description: (<>AWS, Git, ROS2, YOLOv5, CARLA<br />Jira, Unix, Figma, VS Code</>), link: '' },
+    { icon: assets.web_icon, title: 'Programming & Data Processing', description: (<>Python, Java, JavaScript, Pandas, Flask, SQL, R, SAS,<br />chrome.storage, SPSS,<br />Excel File Handling, Longitudinal Modeling</>), link: '' },
+    { icon: assets.mobile_icon, title: 'Frontend', description: (<>HTML, CSS, Tailwind, JavaScript, DOM, Dark/Light Mode, Fetch, Web UI Embedding</>), link: '' },
+    { icon: assets.ui_icon, title: 'AI Integration', description: (<>Gemini API, Prompt Engineering, Markdown Response Parsing, Prompt Reusability UX</>), link: '' },
+    { icon: assets.ui_icon, title: 'Developer Tools', description: (<>Git, VS Code, JSON, Unix, localStorage, Debugging Tools, Unit Testing, Chrome Extensions (Manifest V3), WebExtensions API, DevTools Debugging, Cross-tab Sync</>), link: '' },
 ]
 
 export const infoList = [
@@ -117,20 +118,23 @@ export const infoList = [
                 time: 'Sept 2025 - June 2027',
                 description: (
                     <>
-                      - Relevant courses: Data Structures and Algorithms for ECE Applications,
-                      Software Engineering for Embedded Applications, Large Language Models: From Transformers to ChatGPT
+                      - Relevant courses: Data Structures and Algorithms for ECE Applications, Machine Learning Operations (MLOPS),
+                      Software Engineering for Embedded Applications
                     </>
                   ),
                 // logo: assets.uw_logo
             },
             {
                 institution: 'Northeastern University',
-                degree: 'M.S. in Computer Science',
+                degree: 'M.S. in Computer Science (transferred)',
                 time: 'Jan 2025 - Aug 2025',
                 description: (
                     <>
                       - GPA: 4.0 / 4.0<br />
-                      - Relevant courses: Intensive Foundations of Computer Science (Python), Discrete Structures
+                      - Relevant courses: Intensive Foundations of Computer Science (Python), Discrete Structures<br />
+                      - Transferred to UW to pursue an application-driven program focused on SWE and AI.
+
+
                     </>
                   ),
                 // logo: assets.ntu_logo
@@ -144,15 +148,6 @@ export const infoList = [
         type: 'experience',
         details: [
             {
-                company: 'Sensors, Energy, and Automation Laboratory (SEAL), University of Washington',
-                position: 'Full Stack Software Engineer (Volunteer)',
-                time: 'June 2025 – Present',
-                description: (
-                    <>- Developed full-stack internal tools to support lab automation and workflow tracking, collaborating with researchers to improve usability and adoption
-                </>),
-                logo: assets.uw_lab_logo
-            },
-            {
                 company: 'PAREXEL',
                 position: (
                     <>
@@ -161,7 +156,7 @@ export const infoList = [
                     </>
                   ),
                 time: 'Dec 2018 – Nov 2024',
-                description: '- Built scalable backend pipelines and automation systems to transform clinical trial data into analysis-ready formats, improving processing efficiency across global studies',
+                description: '- Developed scalable backend pipelines and automation systems to transform clinical trial data into analysis-ready formats, significantly enhancing processing efficiency across global studies',
             }
         ]
     }
