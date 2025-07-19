@@ -1,9 +1,10 @@
-import { assets, infoList, toolsData } from '@/assets/assets'
+import { assets, infoList } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
 const About = ({isDarkMode}) => {
+  // The state for managing which card is expanded remains the same.
   const [expandedCard, setExpandedCard] = React.useState(null);
 
   return (
@@ -81,29 +82,30 @@ const About = ({isDarkMode}) => {
                             transition={{ duration: 0.4, delay: itemIndex * 0.1 + 0.3 }}
                             className="relative pl-8 pb-6 last:pb-0"
                           >
-                            {}
                             <div className="absolute left-0 top-0 bottom-0 w-px bg-gray-300 dark:bg-gray-700"></div>
-                            {}
                             <div className="absolute left-[-5px] top-[5px] w-3 h-3 rounded-full bg-[#C77B5C] border border-white dark:border-gray-800"></div>
 
-                            {}
                             {item.logo && (
                                 <Image src={item.logo} alt="logo" className="w-6 h-6 mb-2" />
                             )}
                             <h4 className="font-semibold text-gray-800 dark:text-white text-base">{item.position || item.degree}</h4>
                             <p className="text-sm text-gray-600 dark:text-white/80">{item.company || item.institution}</p>
-
                             <p className="text-sm font-semibold text-gray-500 dark:text-white/70 mt-1">
                                 {item.time}
                             </p>
 
-                            {expandedCard === `${index}-${itemIndex}` && item.description && (
+                            {/* --- MODIFICATION 1 START --- */}
+                            {/* Show description if card is expanded OR if the category type is 'experience' */}
+                            {(expandedCard === `${index}-${itemIndex}` || category.type === 'experience') && item.description && (
                                 <p className="mt-2 text-sm text-gray-700 dark:text-white/90 whitespace-pre-line">
                                     {item.description}
                                 </p>
                             )}
-                            {}
-                            {item.description && (
+                            {/* --- MODIFICATION 1 END --- */}
+
+                            {/* --- MODIFICATION 2 START --- */}
+                            {/* Only show the button if there is a description AND the category type is NOT 'experience' */}
+                            {item.description && category.type !== 'experience' && (
                                 <button
                                     onClick={() => setExpandedCard(expandedCard === `${index}-${itemIndex}` ? null : `${index}-${itemIndex}`)}
                                     className="mt-2 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 text-sm focus:outline-none flex items-center"
@@ -111,14 +113,13 @@ const About = ({isDarkMode}) => {
                                     {expandedCard === `${index}-${itemIndex}` ? '▲ Collapse' : '▼ Expand'}
                                 </button>
                             )}
+                            {/* --- MODIFICATION 2 END --- */}
                           </motion.li>
                         ))}
                       </ul>
                     </motion.div>
                   ))}
                 </motion.div>
-
-
             </motion.div>
         </motion.div>
     </motion.div>
