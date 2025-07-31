@@ -160,9 +160,9 @@ export const infoList = [
                     <>
                       - Specializing in backend automation for global clinical trials;
                         delivered standardized datasets across regulatory agencies (e.g., FDA, PMDA) to support approvals,
-                        including Asia’s first FDA‑approved treatment for nasopharyngeal carcinoma.<br /><br />
+                        including Asia’s first FDA‑approved treatment for nasopharyngeal carcinoma<br /><br />
                       - Built scalable backend pipelines and automation workflows to transform global clinical trial data into
-                        standardized, analysis‑ready formats, improving processing speed and reliability.
+                        standardized, analysis‑ready formats, improving processing speed and reliability
                     </>
                   ),
             }
