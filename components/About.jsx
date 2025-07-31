@@ -45,10 +45,10 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-[750px] mx-auto font-Ovo'
-                >Hi, I’m Yulo — a full-stack developer with 5+ years of backend automation experience in the pharmaceutical industry. At Parexel, I developed backend automation pipelines for clinical trial data, improving processing reliability and efficiency.
-                Recently, I expanded into full‑stack and AI‑powered application development.
-                I'm currently pursuing an M.S. in Electrical and Computer Engineering at the University of Washington. My passion lies in applying software and AI technologies to build practical applications and improve user experiences.
-                I am actively seeking software engineering internships for 2026, where I can contribute to impactful and technically challenging projects.
+                >Hi, I’m Yulo — a full-stack developer with 5+ years of backend automation experience in the pharmaceutical industry.
+                At Parexel, I built scalable ETL workflows and led programming and regulatory submission efforts for FDA‑approved oncology treatments, improving data processing reliability and cross‑team efficiency.
+                Recently, I expanded into full‑stack and AI‑powered application development, focusing on scalable data‑driven systems and user‑centric applications.
+                I’m pursuing an M.S. in Electrical and Computer Engineering at the University of Washington, applying software and AI technologies to deliver practical solutions that enhance user experience.
                 </p>
 
                 <motion.div

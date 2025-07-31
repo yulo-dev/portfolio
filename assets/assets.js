@@ -130,8 +130,8 @@ export const infoList = [
                 time: 'Jan 2025 - Aug 2025',
                 description: (
                     <>
-                      - GPA: 4.0 / 4.0<br />
-                      - Relevant courses: Intensive Foundations of Computer Science (Python), Discrete Structures<br />
+                      - GPA: 4.0 / 4.0<br /><br />
+                      - Relevant courses: Intensive Foundations of Computer Science (Python), Discrete Structures<br /><br />
                       - Transferred to align with long-term goals in applied software engineering and AI-powered systems
 
 
@@ -156,7 +156,15 @@ export const infoList = [
                     </>
                   ),
                 time: 'Dec 2018 – Nov 2024',
-                description: '- Built scalable backend pipelines and automation workflows to transform global clinical trial data into standardized, analysis‑ready formats, improving processing speed and reliability',
+                description: (
+                    <>
+                      - Specializing in backend automation for global clinical trials;
+                        delivered standardized datasets across regulatory agencies (e.g., FDA, PMDA) to support approvals,
+                        including Asia’s first FDA‑approved treatment for nasopharyngeal carcinoma.<br /><br />
+                      - Built scalable backend pipelines and automation workflows to transform global clinical trial data into
+                        standardized, analysis‑ready formats, improving processing speed and reliability.
+                    </>
+                  ),
             }
         ]
     }
