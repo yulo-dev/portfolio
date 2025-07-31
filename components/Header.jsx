@@ -31,7 +31,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        UW ECE grad student with 5+ years in clinical backend engineering, now building full-stack tools using JavaScript, Python (FastAPI), and AI integrations.
+        UW ECE grad student with 5+ years of backend automation for clinical data pipelines, now building full-stack and AI‑powered applications using Python, JavaScript, and AI integrations.
         Seeking 2026 software engineering internships.
         </motion.p>
 
@@ -48,7 +48,7 @@ const Header = () => {
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
-            href="/sample-resume.pdf" download
+            href="/Yu-Lo-Resume.pdf" download
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                 my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
         </div>

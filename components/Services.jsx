@@ -30,7 +30,7 @@ const Services = () => {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I work across the full stack, using technologies like JavaScript, FastAPI, Python, and AI APIs to build scalable web applications.
+        I work across the full stack, using technologies like Python, JavaScript, and AI APIs to build scalable web applications and automation tools.
         Below are some of the core tools I use in my projects.
         </motion.p>
 

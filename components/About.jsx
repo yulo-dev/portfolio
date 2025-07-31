@@ -45,8 +45,9 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-[750px] mx-auto font-Ovo'
-                >Hi, Hi, I’m Yulo — a full-stack software engineer with over 5 years of backend experience in the pharmaceutical industry. I have built data platforms and automated clinical research pipelines, focusing on scalable, production-grade systems that integrate backend strength with thoughtful full-stack design.
-                Currently, I'm pursuing an M.S. in Electrical and Computer Engineering at the University of Washington. My passion lies in applying software and AI technologies to solve real-world challenges in productivity, health, and research.
+                >Hi, I’m Yulo — a full-stack developer with 5+ years of backend automation experience in the pharmaceutical industry. At Parexel, I developed backend automation pipelines for clinical trial data, improving processing reliability and efficiency.
+                Recently, I expanded into full‑stack and AI‑powered application development.
+                I'm currently pursuing an M.S. in Electrical and Computer Engineering at the University of Washington. My passion lies in applying software and AI technologies to build practical applications and improve user experiences.
                 I am actively seeking software engineering internships for 2026, where I can contribute to impactful and technically challenging projects.
                 </p>
 

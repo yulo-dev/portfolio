@@ -91,15 +91,15 @@ export const workData = [
     },
     {
         title: 'Netflix Clone',
-        description: 'GPT-enhanced movie app with Firebase backend',
+        description: 'Ｍovie app with Firebase backend',
         bgImage: '/work-3.png',
-        link: 'https://github.com/noellelo/Netflix-Clone-React'
+        link: 'https://github.com/yulo-dev'
     },
 
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Programming & Data Processing', description: (<>Python, Java, JavaScript, Pandas, Flask, SQL, R, SAS,<br />chrome.storage, SPSS,<br />Excel File Handling, Longitudinal Modeling</>), link: '' },
+    { icon: assets.web_icon, title: 'Programming & Data Processing', description: (<>Python, Java, JavaScript, Pandas, Flask, SQL, chrome.storage, Excel File Handling, R, SAS, SPSS, Longitudinal Modeling</>), link: '' },
     { icon: assets.mobile_icon, title: 'Frontend', description: (<>HTML, CSS, Tailwind, JavaScript, DOM, Dark/Light Mode, Fetch, Web UI Embedding</>), link: '' },
     { icon: assets.ui_icon, title: 'AI Integration', description: (<>Gemini API, Prompt Engineering, Markdown Response Parsing, Prompt Reusability UX</>), link: '' },
     { icon: assets.ui_icon, title: 'Developer Tools', description: (<>Git, VS Code, JSON, Unix, localStorage, Debugging Tools, Unit Testing, Chrome Extensions (Manifest V3), WebExtensions API, DevTools Debugging, Cross-tab Sync</>), link: '' },
@@ -132,7 +132,7 @@ export const infoList = [
                     <>
                       - GPA: 4.0 / 4.0<br />
                       - Relevant courses: Intensive Foundations of Computer Science (Python), Discrete Structures<br />
-                      - Transferred to UW to pursue an application-driven program focused on SWE and AI.
+                      - Transferred to align with long-term goals in applied software engineering and AI-powered systems
 
 
                     </>
@@ -156,7 +156,7 @@ export const infoList = [
                     </>
                   ),
                 time: 'Dec 2018 – Nov 2024',
-                description: '- Developed scalable backend pipelines and automation systems to transform clinical trial data into analysis-ready formats, significantly enhancing processing efficiency across global studies',
+                description: '- Built scalable backend pipelines and automation workflows to transform global clinical trial data into standardized, analysis‑ready formats, improving processing speed and reliability',
             }
         ]
     }
