@@ -99,10 +99,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Programming & Data Processing', description: (<>Python, Java, JavaScript, Pandas, Flask, SQL, chrome.storage, Excel File Handling, R, SAS, SPSS, Longitudinal Modeling</>), link: '' },
-    { icon: assets.mobile_icon, title: 'Frontend', description: (<>HTML, CSS, Tailwind, JavaScript, DOM, Dark/Light Mode, Fetch, Web UI Embedding</>), link: '' },
-    { icon: assets.ui_icon, title: 'AI Integration', description: (<>Gemini API, Prompt Engineering, Markdown Response Parsing, Prompt Reusability UX</>), link: '' },
-    { icon: assets.ui_icon, title: 'Developer Tools', description: (<>Git, VS Code, JSON, Unix, localStorage, Debugging Tools, Unit Testing, Chrome Extensions (Manifest V3), WebExtensions API, DevTools Debugging, Cross-tab Sync</>), link: '' },
+    { icon: assets.web_icon, title: 'Programming Languages', description: (<>Python,Java,JavaScript</>), link: '' },
+    { icon: assets.mobile_icon, title: 'Frameworks & Libraries', description: (<>Flask, RESTful APIs, API Design, React.js, HTML/CSS/Tailwind CSS, XML, XSL</>), link: '' },
+    { icon: assets.ui_icon, title: 'DevOps & Cloud', description: (<> AWS (EC2, S3, Lambda), CI/CD pipelines, Observability & Debugging, Unix/Linux Environments</>), link: '' },
+    { icon: assets.ui_icon, title: 'Databases & Other Technologies', description: (<>SQL (MySQL, ANSI SQL), ETL Pipelines, Data Processing, GitHub, Jira</>), link: '' },
 ]
 
 export const infoList = [
