@@ -45,10 +45,9 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-[750px] mx-auto font-Ovo'
-                >Hi, I’m Yulo — a full-stack developer with 5+ years of backend automation experience in the pharmaceutical industry.
-                At Parexel, I built scalable ETL workflows and led programming and regulatory submission efforts for FDA‑approved oncology treatments, improving data processing reliability and cross‑team efficiency.
-                Recently, I expanded into full‑stack and AI‑powered application development, focusing on scalable data‑driven systems and user‑centric applications.
-                I’m pursuing an M.S. in Electrical and Computer Engineering at the University of Washington, applying software and AI technologies to deliver practical solutions that enhance user experience.
+                >Hi, I'm Yulo — a full-stack developer and former backend automation engineer with 5+ years of experience building high-reliability data pipelines in the global clinical research industry. At Parexel, I engineered large-scale ETL workflows and designed automated data-processing frameworks, improving execution speed, system reliability, and cross-team delivery efficiency.
+                <br />Today, I build full-stack and AI-powered applications using Python, JavaScript/TypeScript, SQL, and modern cloud platforms such as AWS and Cloudflare Workers. My recent work includes serverless AI agents, Excel automation systems, and Chrome extensions designed for productivity-focused users.
+                <br />I’m pursuing an M.S. in Electrical and Computer Engineering at the University of Washington, specializing in software engineering, data systems, and AI-driven applications. I’m passionate about building practical tools that help people work faster, think clearer, and solve real-world problems.
                 </p>
 
                 <motion.div

@@ -78,31 +78,31 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Baseball Stats AI',
+        description: 'AI-powered baseball statistics assistant built with Cloudflare Workers AI',
+        bgImage: '/work-1.png',
+        link: 'https://github.com/yulo-dev/cf_ai_baseball.git'
+    },
+    {
         title: 'Xcelerate',
         description: 'Excel Copilot with AI-powered spreadsheet automation',
-        bgImage: '/work-1.png',
+        bgImage: '/work-2.png',
         link: 'https://github.com/noellelo/Excel-AI-Processor'
     },
     {
         title: 'Pinception',
         description: 'A Chrome extension: Pin and reuse ChatGPT messages and prompts',
-        bgImage: '/work-2.png',
-        link: 'https://chromewebstore.google.com/detail/gegkjocbamflconbpcepdipelhlemdmj?utm_source=item-share-cb'
-    },
-    {
-        title: 'Netflix Clone',
-        description: 'Ｍovie app with Firebase backend',
         bgImage: '/work-3.png',
-        link: 'https://github.com/yulo-dev'
-    },
-
+        link: 'https://chromewebstore.google.com/detail/gegkjocbamflconbpcepdipelhlemdmj?utm_source=item-share-cb'
+    }
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Programming Languages', description: (<>Python,Java,JavaScript</>), link: '' },
-    { icon: assets.mobile_icon, title: 'Frameworks & Libraries', description: (<>Flask, RESTful APIs, API Design, React.js, HTML/CSS/Tailwind CSS, XML, XSL</>), link: '' },
-    { icon: assets.ui_icon, title: 'DevOps & Cloud', description: (<> AWS (EC2, S3, Lambda), CI/CD pipelines, Observability & Debugging, Unix/Linux Environments</>), link: '' },
-    { icon: assets.ui_icon, title: 'Databases & Other Technologies', description: (<>SQL (MySQL, ANSI SQL), ETL Pipelines, Data Processing, GitHub, Jira</>), link: '' },
+    { icon: assets.web_icon, title: 'Programming Languages', description: (<>Python,Java,JavaScript, Typescript, C, C++, Go</>), link: '' },
+    { icon: assets.mobile_icon, title: 'Frameworks & Libraries', description: (<>HTML, CSS, Tailwind CSS, React.js, Flask, RESTful APIs, API Design</>), link: '' },
+    { icon: assets.ui_icon, title: 'DevOps & Cloud', description: (<> AWS (EC2, S3, Lambda), Cloudflare Workers, Edge Deployment, CI/CD pipelines, Unix/Linux Environments</>), link: '' },
+    { icon: assets.ui_icon, title: 'Databases & Tools', description: (<>SQL, Pandas, OpenPyXL, Algorithms & Data Structures, GitHub, Jira, ETL Pipelines, Data Processing</>), link: '' },
+    { icon: assets.ui_icon, title: 'AI/ML', description: (<>Natural Language Processing, Prompt Engineering, LLM Integration, Cloudflare Workers AI (Llama 3.3), Google Gemini API</>), link: '' }
 ]
 
 export const infoList = [
@@ -151,18 +151,15 @@ export const infoList = [
                 company: 'PAREXEL',
                 position: (
                     <>
-                      Senior Statistical Programmer<br />
-                      (Backend & Automation)
+                      Backend & Data Infrastructure Programmer <br /><br />
                     </>
                   ),
                 time: 'Dec 2018 – Nov 2024',
                 description: (
                     <>
-                      - Specializing in backend automation for global clinical trials;
-                        delivered standardized datasets across regulatory agencies (e.g., FDA, PMDA) to support approvals,
-                        including Asia’s first FDA‑approved treatment for nasopharyngeal carcinoma<br /><br />
-                      - Built scalable backend pipelines and automation workflows to transform global clinical trial data into
-                        standardized, analysis‑ready formats, improving processing speed and reliability
+                      - Engineered backend automation pipelines and internal tools using Python and SQL, supporting large-scale workflows and reducing turnaround times from 24h to 3h<br /><br />
+                      - Designed modular ETL frameworks and data-infrastructure components used in FDA regulatory submissions across 30+ countries<br /><br />
+                      - Collaborated with cross-functional teams and led programming to deliver reliable, production-grade data systems
                     </>
                   ),
             }

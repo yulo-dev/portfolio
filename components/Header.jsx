@@ -31,8 +31,8 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        UW ECE grad student with 5+ years of backend automation for clinical data pipelines, now building full-stack and AI‑powered applications using Python, JavaScript, and AI integrations.
-        Seeking 2026 software engineering internships.
+        UW ECE grad student with 5+ years of backend automation experience, now building full-stack and AI-powered applications across Python, JavaScript, and cloud platforms.
+        <br />Seeking 2026 SWE internships.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
